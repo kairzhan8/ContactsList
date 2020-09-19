@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Person {
+struct Person{
     var name: String
     var phone: String
     var surname: String?
@@ -28,5 +28,11 @@ struct Person {
         self.phone = phone
         self.imageData = imageData
         date = Date()
+    }
+}
+
+extension Person: Equatable {
+    static func ==(lhs: Person, rhs: Person) -> Bool {
+        return lhs.phone == rhs.phone
     }
 }
