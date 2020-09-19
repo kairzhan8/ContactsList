@@ -11,10 +11,11 @@ import UIKit
 class ContactListViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var dataSource: ContactListDataSource!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        tableView.dataSource = dataSource
     }
 
 

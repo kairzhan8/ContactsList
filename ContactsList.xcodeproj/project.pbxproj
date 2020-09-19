@@ -20,6 +20,9 @@
 		55F7C6D12516257A001D60F9 /* ContactManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6D02516257A001D60F9 /* ContactManagerTests.swift */; };
 		55F7C6D325162645001D60F9 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6D225162645001D60F9 /* ContactManager.swift */; };
 		55F7C6D5251635F9001D60F9 /* ContactListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6D4251635F9001D60F9 /* ContactListViewControllerTests.swift */; };
+		55F7C6D925163A05001D60F9 /* ContactListDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6D825163A05001D60F9 /* ContactListDataSourceTests.swift */; };
+		55F7C6DB25163ADA001D60F9 /* ContactListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6DA25163ADA001D60F9 /* ContactListDataSource.swift */; };
+		55F7C6DD251668D8001D60F9 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7C6DC251668D7001D60F9 /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		55F7C6D02516257A001D60F9 /* ContactManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerTests.swift; sourceTree = "<group>"; };
 		55F7C6D225162645001D60F9 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
 		55F7C6D4251635F9001D60F9 /* ContactListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewControllerTests.swift; sourceTree = "<group>"; };
+		55F7C6D825163A05001D60F9 /* ContactListDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListDataSourceTests.swift; sourceTree = "<group>"; };
+		55F7C6DA25163ADA001D60F9 /* ContactListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListDataSource.swift; sourceTree = "<group>"; };
+		55F7C6DC251668D7001D60F9 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,7 @@
 		55F7C6CA25162450001D60F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				55F7C6DC251668D7001D60F9 /* ContactCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				55F7C6D225162645001D60F9 /* ContactManager.swift */,
+				55F7C6DA25163ADA001D60F9 /* ContactListDataSource.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				55F7C6D02516257A001D60F9 /* ContactManagerTests.swift */,
+				55F7C6D825163A05001D60F9 /* ContactListDataSourceTests.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -318,7 +327,9 @@
 				55F7C6D325162645001D60F9 /* ContactManager.swift in Sources */,
 				55F7C69F2514DB6A001D60F9 /* ContactListViewController.swift in Sources */,
 				55F7C69B2514DB6A001D60F9 /* AppDelegate.swift in Sources */,
+				55F7C6DB25163ADA001D60F9 /* ContactListDataSource.swift in Sources */,
 				55F7C6C92514DDE6001D60F9 /* Person.swift in Sources */,
+				55F7C6DD251668D8001D60F9 /* ContactCell.swift in Sources */,
 				55F7C69D2514DB6A001D60F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +340,7 @@
 			files = (
 				55F7C6C62514DD4A001D60F9 /* PersonTests.swift in Sources */,
 				55F7C6D5251635F9001D60F9 /* ContactListViewControllerTests.swift in Sources */,
+				55F7C6D925163A05001D60F9 /* ContactListDataSourceTests.swift in Sources */,
 				55F7C6B22514DB70001D60F9 /* ContactsListTests.swift in Sources */,
 				55F7C6D12516257A001D60F9 /* ContactManagerTests.swift in Sources */,
 			);
