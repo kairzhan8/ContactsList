@@ -25,7 +25,24 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jCY-kZ-olj" id="aH3-e1-q7t">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-HP-Mmk">
+                                                    <rect key="frame" x="20" y="11" width="374" height="21.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QPe-HP-Mmk" secondAttribute="bottom" id="NNg-Yi-KBn"/>
+                                                <constraint firstItem="QPe-HP-Mmk" firstAttribute="leading" secondItem="aH3-e1-q7t" secondAttribute="leadingMargin" id="Zf8-qg-k4X"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="QPe-HP-Mmk" secondAttribute="trailing" id="gMv-lf-SDw"/>
+                                                <constraint firstItem="QPe-HP-Mmk" firstAttribute="top" secondItem="aH3-e1-q7t" secondAttribute="topMargin" id="hdv-zO-m6E"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="QPe-HP-Mmk" id="zXu-0p-6gx"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
